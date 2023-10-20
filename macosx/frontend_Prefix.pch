@@ -1,0 +1,19 @@
+
+#ifndef FRONT_CONFIG_H
+#define FRONT_CONFIG_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
+
+/* build with mpglib support */
+#define HAVE_MPGLIB 1
+
+/* add ieee754_float32_t type */
+/* #undef HAVE_IEEE754_FLOAT32_T */
+#ifndef HAVE_IEEE754_FLOAT32_T
+typedef float ieee754_float32_t;
+#endif
+
+#endif // FRONT_CONFIG_H

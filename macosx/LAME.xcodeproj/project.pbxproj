@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1566369B2AE21EA200CCA334 /* timestatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 156636832AE21EA100CCA334 /* timestatus.h */; };
+		1566369C2AE21EA200CCA334 /* get_audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 156636842AE21EA100CCA334 /* get_audio.h */; };
+		1566369D2AE21EA200CCA334 /* lame_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636852AE21EA100CCA334 /* lame_main.c */; };
+		1566369E2AE21EA200CCA334 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636862AE21EA100CCA334 /* main.c */; };
+		156636A12AE21EA200CCA334 /* brhist.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636892AE21EA100CCA334 /* brhist.c */; };
+		156636A22AE21EA200CCA334 /* timestatus.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566368A2AE21EA100CCA334 /* timestatus.c */; };
+		156636A42AE21EA200CCA334 /* rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566368C2AE21EA100CCA334 /* rtp.c */; };
+		156636A52AE21EA200CCA334 /* brhist.h in Headers */ = {isa = PBXBuildFile; fileRef = 1566368D2AE21EA100CCA334 /* brhist.h */; };
+		156636A72AE21EA200CCA334 /* get_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566368F2AE21EA200CCA334 /* get_audio.c */; };
+		156636A82AE21EA200CCA334 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = 156636902AE21EA200CCA334 /* main.h */; };
+		156636A92AE21EA200CCA334 /* parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 156636912AE21EA200CCA334 /* parse.h */; };
+		156636AA2AE21EA200CCA334 /* console.h in Headers */ = {isa = PBXBuildFile; fileRef = 156636922AE21EA200CCA334 /* console.h */; };
+		156636AC2AE21EA200CCA334 /* lametime.h in Headers */ = {isa = PBXBuildFile; fileRef = 156636942AE21EA200CCA334 /* lametime.h */; };
+		156636AD2AE21EA200CCA334 /* rtp.h in Headers */ = {isa = PBXBuildFile; fileRef = 156636952AE21EA200CCA334 /* rtp.h */; };
+		156636AE2AE21EA200CCA334 /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636962AE21EA200CCA334 /* console.c */; };
+		156636AF2AE21EA200CCA334 /* lametime.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636972AE21EA200CCA334 /* lametime.c */; };
+		156636B12AE21EA200CCA334 /* amiga_mpega.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636992AE21EA200CCA334 /* amiga_mpega.c */; };
+		156636B22AE21EA200CCA334 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566369A2AE21EA200CCA334 /* parse.c */; };
+		156636B32AE21F3100CCA334 /* amiga_mpega.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636992AE21EA200CCA334 /* amiga_mpega.c */; };
+		156636B42AE21F3100CCA334 /* brhist.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636892AE21EA100CCA334 /* brhist.c */; };
+		156636B52AE21F3100CCA334 /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636962AE21EA200CCA334 /* console.c */; };
+		156636B62AE21F3100CCA334 /* get_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566368F2AE21EA200CCA334 /* get_audio.c */; };
+		156636B92AE21F3100CCA334 /* lame_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636852AE21EA100CCA334 /* lame_main.c */; };
+		156636BA2AE21F3100CCA334 /* lametime.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636972AE21EA200CCA334 /* lametime.c */; };
+		156636BB2AE21F3100CCA334 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 156636862AE21EA100CCA334 /* main.c */; };
+		156636BE2AE21F3100CCA334 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566369A2AE21EA200CCA334 /* parse.c */; };
+		156636BF2AE21F3100CCA334 /* rtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566368C2AE21EA100CCA334 /* rtp.c */; };
+		156636C02AE21F3100CCA334 /* timestatus.c in Sources */ = {isa = PBXBuildFile; fileRef = 1566368A2AE21EA100CCA334 /* timestatus.c */; };
+		156636C72AE2227400CCA334 /* LAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07F2C80486CC7A007CD1D0 /* LAME.framework */; };
 		73F6497022DB53950038A161 /* xmm_quantize_sub.c in Sources */ = {isa = PBXBuildFile; fileRef = 73F6496B22DB53950038A161 /* xmm_quantize_sub.c */; };
 		73F6497222DB53950038A161 /* lame_intrin.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F6496D22DB53950038A161 /* lame_intrin.h */; };
 		73F6497422DB53950038A161 /* lameerror.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F6496F22DB53950038A161 /* lameerror.h */; };
@@ -75,8 +104,50 @@
 		EA8CC12F09A39A5E001379B8 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8CC0F809A39A5E001379B8 /* version.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		156636C42AE2226C00CCA334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D07F2BC0486CC7A007CD1D0;
+			remoteInfo = LAME;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1566367A2AE21E4200CCA334 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1566367C2AE21E4200CCA334 /* frontend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = frontend; sourceTree = BUILT_PRODUCTS_DIR; };
+		156636832AE21EA100CCA334 /* timestatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timestatus.h; sourceTree = "<group>"; };
+		156636842AE21EA100CCA334 /* get_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = get_audio.h; sourceTree = "<group>"; };
+		156636852AE21EA100CCA334 /* lame_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lame_main.c; sourceTree = "<group>"; };
+		156636862AE21EA100CCA334 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		156636892AE21EA100CCA334 /* brhist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = brhist.c; sourceTree = "<group>"; };
+		1566368A2AE21EA100CCA334 /* timestatus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timestatus.c; sourceTree = "<group>"; };
+		1566368C2AE21EA100CCA334 /* rtp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtp.c; sourceTree = "<group>"; };
+		1566368D2AE21EA100CCA334 /* brhist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brhist.h; sourceTree = "<group>"; };
+		1566368F2AE21EA200CCA334 /* get_audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = get_audio.c; sourceTree = "<group>"; };
+		156636902AE21EA200CCA334 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		156636912AE21EA200CCA334 /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
+		156636922AE21EA200CCA334 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		156636942AE21EA200CCA334 /* lametime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lametime.h; sourceTree = "<group>"; };
+		156636952AE21EA200CCA334 /* rtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtp.h; sourceTree = "<group>"; };
+		156636962AE21EA200CCA334 /* console.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = console.c; sourceTree = "<group>"; };
+		156636972AE21EA200CCA334 /* lametime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lametime.c; sourceTree = "<group>"; };
+		156636992AE21EA200CCA334 /* amiga_mpega.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amiga_mpega.c; sourceTree = "<group>"; };
+		1566369A2AE21EA200CCA334 /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parse.c; sourceTree = "<group>"; };
+		156636C32AE2205700CCA334 /* frontend_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frontend_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		32BAE0B70371A74B00C91783 /* LAME_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAME_Prefix.pch; sourceTree = "<group>"; };
 		73F6496B22DB53950038A161 /* xmm_quantize_sub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmm_quantize_sub.c; sourceTree = "<group>"; };
 		73F6496D22DB53950038A161 /* lame_intrin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame_intrin.h; sourceTree = "<group>"; };
@@ -147,6 +218,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		156636792AE21E4200CCA334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156636C72AE2227400CCA334 /* LAME.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA0A6AD20BB84E32003C87B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				8D07F2C80486CC7A007CD1D0 /* LAME.framework */,
+				1566367C2AE21E4200CCA334 /* frontend */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,7 +250,9 @@
 			children = (
 				08FB77ACFE841707C02AAC07 /* Source */,
 				089C1665FE841158C02AAC07 /* Resources */,
+				1566367D2AE21E4200CCA334 /* frontend */,
 				034768DDFF38A45A11DB9C8B /* Products */,
+				156636C62AE2227400CCA334 /* Frameworks */,
 			);
 			name = LAME;
 			sourceTree = "<group>";
@@ -193,6 +275,40 @@
 				EA8CC08909A39A55001379B8 /* mpglib */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		1566367D2AE21E4200CCA334 /* frontend */ = {
+			isa = PBXGroup;
+			children = (
+				156636C32AE2205700CCA334 /* frontend_Prefix.pch */,
+				156636992AE21EA200CCA334 /* amiga_mpega.c */,
+				156636892AE21EA100CCA334 /* brhist.c */,
+				1566368D2AE21EA100CCA334 /* brhist.h */,
+				156636962AE21EA200CCA334 /* console.c */,
+				156636922AE21EA200CCA334 /* console.h */,
+				1566368F2AE21EA200CCA334 /* get_audio.c */,
+				156636842AE21EA100CCA334 /* get_audio.h */,
+				156636852AE21EA100CCA334 /* lame_main.c */,
+				156636972AE21EA200CCA334 /* lametime.c */,
+				156636942AE21EA200CCA334 /* lametime.h */,
+				156636862AE21EA100CCA334 /* main.c */,
+				156636902AE21EA200CCA334 /* main.h */,
+				1566369A2AE21EA200CCA334 /* parse.c */,
+				156636912AE21EA200CCA334 /* parse.h */,
+				1566368C2AE21EA100CCA334 /* rtp.c */,
+				156636952AE21EA200CCA334 /* rtp.h */,
+				1566368A2AE21EA100CCA334 /* timestatus.c */,
+				156636832AE21EA100CCA334 /* timestatus.h */,
+			);
+			name = frontend;
+			path = ../frontend;
+			sourceTree = "<group>";
+		};
+		156636C62AE2227400CCA334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		73F6496A22DB53950038A161 /* vector */ = {
@@ -290,7 +406,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D07F2BE0486CC7A007CD1D0 /* LAME_Prefix.pch in Headers */,
+				156636AC2AE21EA200CCA334 /* lametime.h in Headers */,
 				EA8CC08809A39A49001379B8 /* lame.h in Headers */,
+				1566369C2AE21EA200CCA334 /* get_audio.h in Headers */,
+				1566369B2AE21EA200CCA334 /* timestatus.h in Headers */,
 				EA8CC0A609A39A55001379B8 /* common.h in Headers */,
 				EA8CC0A809A39A55001379B8 /* dct64_i386.h in Headers */,
 				EA8CC0AA09A39A55001379B8 /* decode_i386.h in Headers */,
@@ -298,26 +417,31 @@
 				EA8CC0AE09A39A55001379B8 /* interface.h in Headers */,
 				EA8CC0AF09A39A55001379B8 /* l2tables.h in Headers */,
 				EA8CC0B109A39A55001379B8 /* layer1.h in Headers */,
+				156636A52AE21EA200CCA334 /* brhist.h in Headers */,
 				EA8CC0B309A39A55001379B8 /* layer2.h in Headers */,
 				EA8CC0B509A39A55001379B8 /* layer3.h in Headers */,
 				EA8CC0B809A39A55001379B8 /* mpg123.h in Headers */,
 				EA8CC0B909A39A55001379B8 /* mpglib.h in Headers */,
 				EA8CC0BE09A39A55001379B8 /* tabinit.h in Headers */,
+				156636A82AE21EA200CCA334 /* main.h in Headers */,
 				EA8CC0FA09A39A5E001379B8 /* bitstream.h in Headers */,
 				EA8CC0FD09A39A5E001379B8 /* encoder.h in Headers */,
 				EA8CC0FF09A39A5E001379B8 /* fft.h in Headers */,
 				EA8CC10109A39A5E001379B8 /* gain_analysis.h in Headers */,
 				EA8CC10D09A39A5E001379B8 /* id3tag.h in Headers */,
+				156636A92AE21EA200CCA334 /* parse.h in Headers */,
 				EA8CC10E09A39A5E001379B8 /* l3side.h in Headers */,
 				EA8CC10F09A39A5E001379B8 /* lame-analysis.h in Headers */,
 				EA8CC11109A39A5E001379B8 /* lame_global_flags.h in Headers */,
 				EA8CC11409A39A5E001379B8 /* machine.h in Headers */,
+				156636AA2AE21EA200CCA334 /* console.h in Headers */,
 				73F6497222DB53950038A161 /* lame_intrin.h in Headers */,
 				EA8CC11909A39A5E001379B8 /* newmdct.h in Headers */,
 				EA8CC11C09A39A5E001379B8 /* psymodel.h in Headers */,
 				EA8CC11E09A39A5E001379B8 /* quantize.h in Headers */,
 				EA8CC12009A39A5E001379B8 /* quantize_pvt.h in Headers */,
 				EA8CC12209A39A5E001379B8 /* reservoir.h in Headers */,
+				156636AD2AE21EA200CCA334 /* rtp.h in Headers */,
 				EA8CC12409A39A5E001379B8 /* set_get.h in Headers */,
 				73F6497422DB53950038A161 /* lameerror.h in Headers */,
 				EA8CC12609A39A5E001379B8 /* tables.h in Headers */,
@@ -331,6 +455,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1566367B2AE21E4200CCA334 /* frontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156636822AE21E4200CCA334 /* Build configuration list for PBXNativeTarget "frontend" */;
+			buildPhases = (
+				156636782AE21E4200CCA334 /* Sources */,
+				156636792AE21E4200CCA334 /* Frameworks */,
+				1566367A2AE21E4200CCA334 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				156636C52AE2226C00CCA334 /* PBXTargetDependency */,
+			);
+			name = frontend;
+			productName = frontend;
+			productReference = 1566367C2AE21E4200CCA334 /* frontend */;
+			productType = "com.apple.product-type.tool";
+		};
 		8D07F2BC0486CC7A007CD1D0 /* LAME */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FADC24208B4156D00ABE55E /* Build configuration list for PBXNativeTarget "LAME" */;
@@ -357,6 +499,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					1566367B2AE21E4200CCA334 = {
+						CreatedOnToolsVersion = 15.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 4FADC24608B4156D00ABE55E /* Build configuration list for PBXProject "LAME" */;
 			compatibilityVersion = "Xcode 2.4";
@@ -372,6 +520,7 @@
 			projectRoot = "";
 			targets = (
 				8D07F2BC0486CC7A007CD1D0 /* LAME */,
+				1566367B2AE21E4200CCA334 /* frontend */,
 			);
 		};
 /* End PBXProject section */
@@ -388,23 +537,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		156636782AE21E4200CCA334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156636B32AE21F3100CCA334 /* amiga_mpega.c in Sources */,
+				156636B42AE21F3100CCA334 /* brhist.c in Sources */,
+				156636B52AE21F3100CCA334 /* console.c in Sources */,
+				156636B62AE21F3100CCA334 /* get_audio.c in Sources */,
+				156636B92AE21F3100CCA334 /* lame_main.c in Sources */,
+				156636BA2AE21F3100CCA334 /* lametime.c in Sources */,
+				156636BB2AE21F3100CCA334 /* main.c in Sources */,
+				156636BE2AE21F3100CCA334 /* parse.c in Sources */,
+				156636BF2AE21F3100CCA334 /* rtp.c in Sources */,
+				156636C02AE21F3100CCA334 /* timestatus.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D07F2C10486CC7A007CD1D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156636B22AE21EA200CCA334 /* parse.c in Sources */,
 				EA8CC0A509A39A55001379B8 /* common.c in Sources */,
+				156636AF2AE21EA200CCA334 /* lametime.c in Sources */,
 				73F6497022DB53950038A161 /* xmm_quantize_sub.c in Sources */,
 				EA8CC0A709A39A55001379B8 /* dct64_i386.c in Sources */,
+				156636B12AE21EA200CCA334 /* amiga_mpega.c in Sources */,
+				1566369D2AE21EA200CCA334 /* lame_main.c in Sources */,
 				EA8CC0A909A39A55001379B8 /* decode_i386.c in Sources */,
 				EA8CC0AD09A39A55001379B8 /* interface.c in Sources */,
 				EA8CC0B009A39A55001379B8 /* layer1.c in Sources */,
 				EA8CC0B209A39A55001379B8 /* layer2.c in Sources */,
 				EA8CC0B409A39A55001379B8 /* layer3.c in Sources */,
+				156636A12AE21EA200CCA334 /* brhist.c in Sources */,
 				EA8CC0BD09A39A55001379B8 /* tabinit.c in Sources */,
 				EA8CC0F909A39A5E001379B8 /* bitstream.c in Sources */,
 				EA8CC0FC09A39A5E001379B8 /* encoder.c in Sources */,
 				EA8CC0FE09A39A5E001379B8 /* fft.c in Sources */,
 				EA8CC10009A39A5E001379B8 /* gain_analysis.c in Sources */,
+				1566369E2AE21EA200CCA334 /* main.c in Sources */,
+				156636A72AE21EA200CCA334 /* get_audio.c in Sources */,
 				EA8CC10C09A39A5E001379B8 /* id3tag.c in Sources */,
 				EA8CC11009A39A5E001379B8 /* lame.c in Sources */,
 				EA8CC11709A39A5E001379B8 /* mpglib_interface.c in Sources */,
@@ -412,6 +585,9 @@
 				EA8CC11A09A39A5E001379B8 /* presets.c in Sources */,
 				EA8CC11B09A39A5E001379B8 /* psymodel.c in Sources */,
 				EA8CC11D09A39A5E001379B8 /* quantize.c in Sources */,
+				156636A42AE21EA200CCA334 /* rtp.c in Sources */,
+				156636AE2AE21EA200CCA334 /* console.c in Sources */,
+				156636A22AE21EA200CCA334 /* timestatus.c in Sources */,
 				EA8CC11F09A39A5E001379B8 /* quantize_pvt.c in Sources */,
 				EA8CC12109A39A5E001379B8 /* reservoir.c in Sources */,
 				EA8CC12309A39A5E001379B8 /* set_get.c in Sources */,
@@ -426,6 +602,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		156636C52AE2226C00CCA334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D07F2BC0486CC7A007CD1D0 /* LAME */;
+			targetProxy = 156636C42AE2226C00CCA334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -438,6 +622,73 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		156636802AE21E4200CCA334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(TARGETNAME)_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		156636812AE21E4200CCA334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(TARGETNAME)_Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		4FADC24308B4156D00ABE55E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,7 +702,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = LAME_Prefix.pch;
+				GCC_PREFIX_HEADER = "$(TARGETNAME)_Prefix.pch";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = staticlib;
@@ -473,7 +724,7 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = LAME_Prefix.pch;
+				GCC_PREFIX_HEADER = "$(TARGETNAME)_Prefix.pch";
 				INSTALL_PATH = "@executable_path/../Frameworks/";
 				LIBRARY_STYLE = DYNAMIC;
 				MACH_O_TYPE = staticlib;
@@ -519,11 +770,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos macosx";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -561,16 +812,25 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos macosx";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		156636822AE21E4200CCA334 /* Build configuration list for PBXNativeTarget "frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156636802AE21E4200CCA334 /* Debug */,
+				156636812AE21E4200CCA334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4FADC24208B4156D00ABE55E /* Build configuration list for PBXNativeTarget "LAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
